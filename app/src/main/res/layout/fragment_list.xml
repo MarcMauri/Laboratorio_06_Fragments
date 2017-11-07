@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="app.android.mmauri.laboratorio_06_fragments.Fragments.MailListFragment">
+    tools:context="app.android.mmauri.laboratorio_06_fragments.Fragments.ListFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ListView

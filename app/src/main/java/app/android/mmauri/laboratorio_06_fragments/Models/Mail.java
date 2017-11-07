@@ -20,42 +20,20 @@ public class Mail {
         this.color = Util.getRandomColor();
     }
 
-    public Mail(String subject, String message, String emailAddress, int color) {
-        this.subject = subject;
-        this.message = message;
-        this.emailAddress = emailAddress;
-        this.color = color;
-    }
-
     public String getSubject() {
         return subject;
-    }
-
-    public void setSubject(String subject) {
-        this.subject = subject;
     }
 
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
     public String getEmailAddress() {
         return emailAddress;
-    }
-
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
     }
 
     public int getColor() {
         return color;
     }
 
-    public void setColor(int color) {
-        this.color = color;
-    }
 }
